@@ -1,0 +1,34 @@
+.partners__container {
+  display: block;
+  max-width: 870px;
+  margin-bottom: 25px;
+}
+
+.partners__title {
+  margin-bottom: 80px;
+}
+
+.partners-logos__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners-logos__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  margin-bottom: 50px;
+}
+
+.partners-logos__link {
+  height: 100%;
+  filter: grayscale(1);
+  transition: .3s ease-out;
+}
+
+.partners-logos__link:hover {
+  filter: grayscale(0);
+}

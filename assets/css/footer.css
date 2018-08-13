@@ -1,0 +1,55 @@
+.footer {
+  background-color: #131415;
+  color: #ffffff;
+}
+
+.footer__container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.footer__copyrights {
+  max-width: 240px;
+  font: 300 14px/18px "Open Sans";
+}
+
+.footer__copyrights-school,
+.footer__copyrights-autor {
+  font: 700 14px/18px "Open Sans";
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.footer__copyrights-school:hover,
+.footer__copyrights-autor:hover {
+  color: #f89513;
+}
+
+.socials__title {
+  font: 700 14px/24px "Open Sans";
+  margin-bottom: 5px;
+}
+
+.socials__list li:not(:last-child) {
+  margin-right: 6px;
+}
+
+.socials__item {
+  display: inline-block;
+}
+
+.socials__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: #d0d0d0;
+  border-radius: 50%;
+  font-size: 13px;
+}
+
+.socials__link:hover {
+  background-color: #f89513;
+}

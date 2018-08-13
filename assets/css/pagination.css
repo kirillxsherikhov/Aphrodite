@@ -1,0 +1,53 @@
+.switcher {
+  margin: 0 auto 60px;
+}
+
+.switcher,
+.switcher__pages,
+.switcher__paginator {
+  display: flex;
+  align-items: center;
+}
+
+.switcher__display {
+  font: 300 14px/25px Roboto;
+  vertical-align: middle;
+  color: #656464;
+  margin-right: 20px;
+}
+
+.switcher__prev,
+.switcher__next {
+  font-size: 10px;
+  line-height: 21px;
+}
+
+.switcher__disabled {
+  opacity: 0.3;
+}
+
+.switcher__pages {
+  margin: 0 10px;
+}
+
+.switcher__pages .switcher__link__current {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 0 2px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 25px;
+  background-color: #27273e;
+  color: #ffffff;
+}
+
+.switcher__link {
+  margin: 0 8px;
+  color: #221f1f;
+  font: 700 14px/21px Roboto;
+}
+
+.switcher__link:not(.switcher__link__current):hover {
+  color: #f89513;
+}
