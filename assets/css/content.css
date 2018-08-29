@@ -276,6 +276,10 @@ a.top-news__article:last-of-type {
   margin-bottom: 38px;
 }
 
+.article__description {
+  text-align: justify;
+}
+
 .content-list .article__img--standart {
   background-color: #f5f5f5;
   background-size: auto;
@@ -294,9 +298,14 @@ a.top-news__article:last-of-type {
   margin: 0 auto;
   color: #ffffff;
   font: 300 18px/30px "Open Sans";
+  text-align: justify;
 }
 
 .service__wrapper span {
   color: #f89513;
   font: 700 18px/30px "Open Sans";
+}
+
+.services__article-description {
+  text-align: justify;
 }
