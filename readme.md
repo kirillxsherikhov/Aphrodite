@@ -5,3 +5,5 @@
 https://kirillxsherikhov.github.io/Aphrodite/
 
 ```
+
+![Aphrodite](https://github.com/kirillxsherikhov/Aphrodite/aphrodite-readme.png)
