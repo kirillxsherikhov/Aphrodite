@@ -1,4 +1,7 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   background-color: #131415;
   color: #ffffff;
 }
@@ -38,12 +41,18 @@
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  position: relative;
-  transition: none;
-  padding-left: 37px;
+  /* position: relative; */
+  padding-left: 30px;
 }
 
-.navigation__link:before {
+.navigation__link i {
+  margin-right: 10px;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* .navigation__link:before {
   content: "";
   display: block;
   position: absolute;
@@ -52,7 +61,7 @@
   top: 50%;
   transform: translateY(-50%);
   background: url(../../assets/img/spritesheet.png) no-repeat -10px -10px;
-}
+} */
 
 .navigation__link:hover {
   color: #f89513;

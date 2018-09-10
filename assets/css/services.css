@@ -22,10 +22,15 @@
 .services__article-picture {
   position: relative;
   overflow: hidden;
-  width: 250px;
+  width: 261px;
   height: 153px;
   border-radius: 3px;
   margin-bottom: 24px;
+}
+
+.article-picture__img {
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .services__article-picture:before {
