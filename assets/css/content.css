@@ -289,6 +289,7 @@ a.top-news__article:last-of-type {
 
 .service {
   background: url(../img/services-pattern.png) repeat #131415;
+  background-position: 0 0;
   padding: 20px 0;
   margin-bottom: 60px;
 }
