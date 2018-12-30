@@ -2,7 +2,7 @@
 
 ```bash
 
-https://kirillxsherikhov.github.io/Aphrodite/
+https://ksherikhov.github.io/Aphrodite/
 
 ```
 
