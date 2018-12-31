@@ -6,4 +6,4 @@ https://ksherikhov.github.io/Aphrodite/
 
 ```
 
-![Aphrodite](https://github.com/ksherikhov/Aphrodite/raw/master/aphrodite-readme.png)
+![Aphrodite](/aphrodite-readme.png)
